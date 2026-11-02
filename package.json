@@ -1,1 +1,31 @@
-{"name":"examly-next","private":true,"version":"1.0.0","scripts":{"dev":"next dev --hostname 0.0.0.0","build":"next build","now-build":"next build","start":"next start --hostname 0.0.0.0","check":"node --check lib/db.js && node --check lib/models.js && node --check lib/gemini.js && node --check lib/pdf.js && node --check lib/uploads.js && node --check lib/rate-limit.js && node --check app/api/[...path]/route.js"},"dependencies":{"@google/genai":"*","@tailwindcss/postcss":"*","axios":"*","bcryptjs":"*","jsonwebtoken":"*","lucide-react":"*","mongoose":"*","next":"*","pdfjs-dist":"*","react":"*","react-dom":"*","recharts":"*","tailwindcss":"*","zod":"*"}}
+{
+  "name": "examly-next",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next dev --hostname 0.0.0.0",
+    "build": "next build",
+    "now-build": "next build",
+    "start": "next start --hostname 0.0.0.0",
+    "check": "node --check lib/db.js && node --check lib/models.js && node --check lib/gemini.js && node --check lib/pdf.js && node --check lib/uploads.js && node --check lib/rate-limit.js && node --check app/api/[...path]/route.js"
+  },
+  "dependencies": {
+    "@google/genai": "2.32.0",
+    "@tailwindcss/postcss": "4.3.3",
+    "axios": "1.21.0",
+    "bcryptjs": "3.0.3",
+    "jsonwebtoken": "9.0.3",
+    "lucide-react": "1.66.0",
+    "mongoose": "9.11.4",
+    "next": "16.4.4",
+    "pdfjs-dist": "6.5.438",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "recharts": "3.10.1",
+    "tailwindcss": "4.3.3",
+    "zod": "4.6.7"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
